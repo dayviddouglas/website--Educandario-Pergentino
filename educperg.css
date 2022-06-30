@@ -1,0 +1,218 @@
+
+    
+
+
+.titulo-principal{
+    padding: 50px 20px;
+    background:#32CD32;
+    width: 100%;
+    font-size: 30px;
+    
+    
+}
+
+
+nav ul {
+    position: relative;
+    width: 30%;
+    left: 60%;
+    bottom: 75px;
+        
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s all;
+}
+
+a:hover{
+    color: #FFFFFF;
+
+}
+
+
+.conteudo-principal{
+    width:100%;
+    height: 42%;
+    background: #CCCCCC;
+    position: absolute;
+    padding: 20px 20px;
+    top: 130px;
+    
+    
+
+}
+
+.titulo-texto-principal{
+    width: 40%; 
+    padding: 5px 0;
+    font-size:25px;
+}
+
+.texto-principal{
+    width: 40%;
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
+
+#logo{
+    position: relative;
+    width: 200px;
+    left: 900px;
+    bottom: 220px;
+    border: 2px solid #FFFFFF;
+               
+}
+
+.local-das-fotos{      
+    width: 100%;
+    /*margin: 90px 0 40px 0;*/
+    top: 500px;
+    background: #FF0000;
+    padding: 20px 20px;
+
+
+}
+
+.titulo-engajamento{
+    text-align: left;
+    margin: 300px 0 0 0;
+    font-size: 25px;
+    padding: 20px 10px;
+
+}
+
+.fotos-engajamento{
+    width: 20%;
+    display: inline;
+    bottom: 200px;
+    margin: 0 30px; 
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+
+.rodape{
+    width: 100%;
+    
+
+}
+
+.foto-rodape{
+    width: 20%;
+    margin: 0 0 0 45%;
+
+}
+
+.copyright{
+    margin: 10px 0 0 47%;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px){
+
+    body{
+        width: 100%;
+    }
+
+   header, main, footer{
+       width:auto;
+   }
+
+  
+
+     .conteudo-principal, #logo{
+        position: static;
+    }
+   
+
+    .titulo-principal{
+        text-align: center;
+
+    }
+
+    
+
+    .ancoras{
+        width: 100%;
+       padding: 50px 210px 0 0 ;
+       background: #32CD32; 
+         
+        
+        
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 50px 0 0 0 ;
+        margin-right: 80px;
+        
+    }
+
+    nav ul li{
+        margin: -40px auto;
+    }
+
+    
+    .conteudo-principal{
+        text-align: left;
+        margin: 0 auto;
+    }
+    .titulo-texto-principal{
+        width: 100%;
+        text-align: center;
+    }
+    .texto-principal{
+        width: 70%;
+        display: inline-block;
+    }
+
+    #logo{
+        width: 25%;
+        border: none;
+        float: right; 
+    }
+
+    .local-das-fotos{
+        clear: right;
+        text-align: center;
+        
+    }
+
+    .titulo-engajamento{
+        margin: 0 0 100px 0;
+    }
+   
+    .fotos-engajamento{
+        border: none;
+        padding: 0 -30px 180px -30px;
+        width: 45%;
+        margin: 0 0 20px 0;
+    }
+    
+    .rodape{
+        padding: 20px 20px;
+    } 
+    .foto-rodape{
+        margin: 0 20px 0 120px;
+        width: 30%;
+    
+
+    }
+
+    .copyright{
+    
+        margin: 20px 35px 20px 50px;
+    }
+}

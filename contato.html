@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Educandário Pergentino</title>
+    <link rel="stylesheet" href="contatperg.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body class="pagina-toda">
+
+    <header class="cabecalho">
+       <h1 class="texto-cabecalho"> Contato - Educandário Pergentino.</h1>
+        <img  id="logo-cabecalho" src="banner.png" alt="Logo-da-Escola">
+    </header>
+    <main>
+        <form id="formulario">
+            <fieldset class="questionario">
+                <label for="nome-contato" class="texto-nome"> Qual é seu nome (Completo)?</label>
+                <br>
+                <input type="text" id="nome-contato" name="nome-contato" required> 
+                <br>
+                <label for="telefone-contato" class="texto-telefone"> Qual telefone poderemos entrar em contato?</label>
+                <br>
+                <input type="tel" name="telefone-contato" id="telefone-contato" required placeholder="81912345678">
+                <br>
+                <label for="email-contato" class="texto-email"> Digite um Email.</label>
+                <br>
+                <input type="email" name="email-contato" id="email-contato" required placeholder="seuemail@dominio.com"> 
+
+                <fieldset class="questionario-motivo">
+                    <legend class="texto-questionario"> Qual o motivo do Contato?</legend>
+                    <select name="motivo-contato" id="motivo-contato">
+                        <option value="reclamacao-professor"> Reclamação referente a algum professor.</option>
+                        <option value="reclamacao-aluno"> Reclamação referente a algum aluno.</option>
+                        <option value="reclamacao-gestao"> Reclamação referente a gestão da Escola.</option>
+                        <option value="sanar-dividas"> Sanar Débitos.</option>
+                        <option value="outros-assuntos"> Outros Assuntos.</option>          
+                    </select>
+                </fieldset>
+
+                <fieldset class="espaco-tabela-de-aviso">
+                    <table class="tabela-de-aviso">
+                        <thead>
+                            <tr>
+                                <th> Os contatos serão respondidos diretamente no Email informado.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> As respostas serão dadas em até 5 dias utéis, nos seguintes horários:</td>
+                            </tr>
+                             <tr>
+                                 <td> De Segunda a Sexta </td>
+                             </tr>
+                             <tr>
+                                 <td> 8:00 - 11:30  e 13:00 - 17:00 </td>
+                             </tr>
+                             <tr>
+                                 <td> Temos um telefone para Contato : (81) 4116-0444.</td>
+                             </tr>
+                        </tbody>
+                    </table>
+               </fieldset>
+
+               <fieldset>     
+                    <label for="redigir" class="texto-redigir"> Você poderia redigir ?</label>
+                    <br>
+                    <textarea name="redigir" id="redigir" cols="40" rows="10" required placeholder="Olá Educandário Pergentino, gostaria de falar sobre..."></textarea>
+                    <br>
+               </fieldset>
+
+               <fieldset class="espaco-enviar">
+                    <input type="submit" name="enviar" id="enviar" value="Enviar Informações">
+               </fieldset>
+
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="copyright"> &copy; &reg; Educandário Pergentino Ltda.</p>
+    </footer>
+    
+</body>
+</html>

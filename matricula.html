@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Matriculas - Educandário Pergentinos</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="matricperg.css">
+    </head>
+    <body class="corpo">
+        <header class="cabecalho">
+            <h1 class="titulo-cabecalho"> Matriculas - Educandário Pergentino </h1>
+            <img id="logo-cabecalho" src="banner.png"alt="Logo-da-Escola">
+        </header>
+        <main class="conteudo-central">
+            <form class="formulario">
+           <fieldset class="espaco-nome-do-aluno-pais">
+                <fieldset class="nome-do-aluno-e-pais">
+                    <legend class="titulo-formulario"> Vamos se juntar ao Pergentino ?</legend>
+                    <label for="nome-da-crianca" class="nome-da-crianca"> Nome Completo do Aluno(a) ?</label>
+                    <textarea id="nome-da-crianca" cols="40" rows="1" required></textarea>
+
+                    <label for="nome-da-mae" class="nome-da-mae"> Nome Completo da Mãe ?</label>
+                    <textarea id="nome-da-mae" cols="40" rows="1" required></textarea>
+
+                    <label for="nome-do-pai" class="nome-do-pai"> Nome Completo do Pai ?</label>
+                    <textarea  id="nome-do-pai" cols="40" rows="1" required></textarea>
+
+                    <label for="email-pais" class="email-pais"> Email Funcional dos Pais.</label>
+                    <input type="email" id="email-pais" required placeholder="seuemail@dominio.com" multiple>
+                    <label for="telefone-pais" class="telefone-pais"> Telefone para Contato.</label>
+                    <input type="tel" id="telefone-pais" required placeholder="81912345678">
+                </fieldset>
+            </fieldset>
+
+                <fieldset class="questionario-fechado">
+                    <fieldset class="questionario-idade-do-aluno">
+                        <legend class="titulo-idade-do-aluno"> Qual é a Idade do Aluno(a) ?</legend>
+                        <select name="selecao-idade-do-aluno" class="selecao-idade-do-aluno"> 
+                            <option value="2-anos"> 2 anos</option>
+                            <option value="3-anos"> 3 anos</option>
+                            <option value="4-anos"> 4 anos</option>
+                            <option value="5-anos"> 5 anos</option>
+                            <option value="6-anos"> 6 anos</option>
+                            <option value="7-anos"> 7 anos</option>
+                            <option value="8-anos"> 8 anos</option>
+                            <option value="9-anos"> 9 anos</option>
+                            <option value="10-anos-ou-mais"> 10 anos ou mais</option>
+                        </select>
+                    </fieldset>
+                        <fieldset class="questionario-fator-rh">
+                            <legend class="titulo-fator-rh"> Qual é o fator RH da Criança ?</legend>
+                            <select name="selecao-fator-rh" class="selecao-fator-rh">
+                                <option value="a-positivo"> A+ </option>
+                                <option value="a-negativo"> A- </option>
+                                <option value="b-positivo"> B+ </option>
+                                <option value="b-negativo"> B- </option>
+                                <option value="ab-positivo"> AB+ </option>
+                                <option value="ab-negativo"> AB- </option>
+                                <option value="o-positivo"> O+ </option>
+                                <option value="o-negativo"> O- </option>
+                            </select>
+                        </fieldset>
+                        <fieldset class="questionario-turno">
+                            <legend class="titulo-turno"> Qual será o turno desejado ?</legend>
+                            <label for="radio-manha"> <input type="radio" value="manha" name="turno" id="radio-manha"> Manhã </label>
+                            <label for="radio-tarde"> <input type="radio" value="tarde" name="turno" id="radio-tarde" checked> Tarde </label>
+                        </fieldset>
+                    
+                     </fieldset>
+             
+             
+            <fieldset class="espaco-importar-documentacao">
+                <fieldset class="importar-documentacao">
+                    <legend class="titulo-documentacao"> Documentos necessários para fazer a Matricula.
+                       <strong> Observação: Os documentos deverão está em formato em PDF ou JPEG. </strong>
+                    </legend>
+                    <ul>
+                        <li> 1- Transferência (provisória ou original)</li>
+                        <li> 2- Registro de Nascimento da Criança. </li>
+                        <li> 3- Identidade dos Pais.</li>
+                        <li> 4- Comprovante de Residência.</li>
+                        <li> 5- Exame de Sangue com Fator Rh.</li>
+                        <li> 6- Declaração de Nada Consta da Escola anterior.</li>
+                    </ul>
+                    <label for="documentacao" class="texto-para-documentacao"> Adicione toda a documentação aqui ao lado.</label>
+                    <input type="file" id="documentacao"  name="documentacao" accept=".pdf, .png, .jpeg,.jpg " multiple required>
+                    <!-- Esse input do tipo: file, é utilizado para importar arquivos.-->
+                    <!-- O "multiple" é usado para permitir que o usuário importe vários arquivos.-->      
+                    <input type="submit"  name="enviar" value="Enviar as Informações" class="enviar">
+
+                    <table class="tabela-de-informacoes">
+                        <thead class="espaco-do-titulo-da-tabela-de-informacoes">
+                            <th class="titulo-da-tabela-de-informacoes"> As matriculas são realizadas no mês de Janeiro.</th>
+                        </thead>
+                        <tbody class="corpo-da-tabela">
+                            <tr>
+                                <td class="titulo-horarios-de-funcionamento"> Horários de Funcionamento:</td>
+                            </tr>
+                            <tr>
+                                <td class="dias-de-funcionamento">De Segunda à Sexta-feira </td>
+                            </tr>
+                            <tr>
+                                <td class="horarios-de-funcionamento">08:00 - 11:30 e 13:00 - 17:00 </td>
+                            </tr>  
+                        </tbody>
+                    </table>            
+                </fieldset>
+            </fieldset>         
+           </form> 
+        </main>
+
+        <footer class="rodape"> 
+            <p class="copyright"> &copy; &reg; Educandário Pergentino Ltda.</p>          
+        </footer>   
+    </body>
+</html>

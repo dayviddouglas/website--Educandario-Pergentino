@@ -1,0 +1,159 @@
+
+.pagina-toda{
+    width: 100%;
+}
+
+.cabecalho{
+    height: 20%;
+    background: #32CD32;
+}
+
+
+.texto-cabecalho{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+#logo-cabecalho{
+    width: 13%;
+    margin: -50px 0 20px 80%;
+    display: inline-block;
+    height: 180px;
+}
+
+#formulario{
+    height: 60%;
+}
+
+.questionario{
+    background: rgb(220, 220,220);
+}
+
+.texto-nome{
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+br{
+    width: 30%;
+     
+}
+
+#nome-contato{
+    width: 20%;
+    height: 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+    display: inline-block;
+    margin: -30px 0 20px 20px;
+
+}
+
+.texto-telefone{
+    font-size: 20px;
+    margin: 0 0 20px 20px;
+    display: inline-block;
+}
+
+#telefone-contato{
+    width: 20%;
+    height: 20px;
+    margin: -10px 0 20px 20px;
+    display: inline-block;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.texto-email{
+    font-size: 20px;
+    margin: 0 0 20px 20px;
+    display: inline-block;
+}
+
+#email-contato{
+    width: 20%;
+    height: 20px;
+    margin: 0 0 20px 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+    display: inline-block;
+}
+.texto-questionario{
+    font-size: 20px;
+    margin: 0 0 10px 20px;
+    display: inline-block;
+    
+}
+
+#motivo-contato{
+    font-size: 18px;
+    margin: 0 0 20px 20px;
+    display: inline-block;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.espaco-tabela-de-aviso{
+    width: 40%;
+    margin: -250px 0 0 55%;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size:18px;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.texto-redigir{
+    margin: 80px 0 20px 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#redigir{
+    width: 30%;
+    display: inline-block;
+    margin: 0 0 0 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.espaco-enviar{
+    
+    
+}
+
+#enviar{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    width: 20%;
+    margin: 0 0 50px 70%;
+    background: #FF0000;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: 0.5s all;  
+    cursor: pointer;  
+}
+
+#enviar:hover{
+    transform: scale(1.2);
+    
+}
+
+.rodape{
+    height: 20%;
+    padding: 70px 0;
+    text-align: center;
+    font-size: 18px;
+    background: #FF0000;
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,274 @@
+.corpo{
+    width: 100%;
+}
+
+.cabecalho{
+  height: 20%;
+  background: #32CD32;
+
+}
+.titulo-cabecalho{
+    font-size: 30px;
+    color:#FFFFFF;
+    padding: 10px 20px;
+    
+}
+
+#logo-cabecalho{
+    width: 10%;
+    padding: 30px 0;
+    margin-left: 50%;
+}
+
+.conteudo-central{
+    height: 80%;
+}
+
+.espaco-nome-do-aluno-pais{
+    background: #8FBC8F;
+}
+
+.nome-do-aluno-e-pais{
+    height: 40%;
+}
+
+.titulo-formulario{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+.nome-da-crianca{
+    font-size: 18px;
+    display: block;
+    margin: 20px 20px;
+}
+
+#nome-da-crianca{
+    display: block;
+    height: 25px;
+    margin: 20px 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.nome-da-mae{
+    font-size: 18px;
+    display: block;
+    margin: 20px 20px;
+}
+
+#nome-da-mae{
+    display: block;
+    height: 25px;
+    margin: 20px 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.nome-do-pai{
+    font-size: 18px;
+    display: block;
+    margin: 20px 20px;
+}
+
+#nome-do-pai{
+    display: block;
+    height: 25px;
+    margin: 20px 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.email-pais{
+    font-size: 18px;
+    display: block;
+    margin: 20px 20px;
+}
+
+#email-pais{
+    display: block;
+    height: 25px;
+    width: 340px;
+    margin: 20px 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.telefone-pais{
+    font-size: 18px;
+    display: block;
+    margin: 20px 20px;
+}
+
+#telefone-pais{
+    display: block;
+    height: 25px;
+    width: 340px;
+    margin: 20px 20px;
+    border: 2px solid #32CD32;
+    border-radius: 5px;
+}
+
+.questionario-fechado{
+    height: 10%;
+    background: #8FBC8F;
+    padding: 30px 30px;
+    
+}
+
+.questionario-idade-do-aluno{
+  width: 20%;
+  display: inline-block;
+  margin: 0 0 20px 30%;
+  
+}
+
+.titulo-idade-do-aluno{
+    font-size: 18px;
+    margin: 10px 20px;
+
+}
+
+.selecao-idade-do-aluno{
+    border: 2px solid #32CD32;
+    margin: 0 0 10px 20px;
+
+    
+}
+
+.questionario-fator-rh{
+    width: 20%;
+    display: inline-block;
+
+}
+
+.titulo-fator-rh{
+    font-size: 18px;
+    margin: 0 0 10px 20px;
+    
+}
+
+.selecao-fator-rh{
+    border: 2px solid #32CD32;
+    margin: 0 0 10px 20px;
+}
+
+.questionario-turno{
+    width: 20%;
+    display: inline-block;
+    
+}
+
+.titulo-turno{
+    font-size: 18px;
+    margin: 0 0 10px 20px;
+}
+
+#radio-manha, #radio-tarde{
+    margin: 0 0 20px 20px;
+}
+
+.espaco-importar-documentacao{
+    background: #8FBC8F;
+}
+
+.importar-documentacao{
+    padding: 20px 20px;
+    
+
+}
+
+.titulo-documentacao{
+    font-size: 18px;
+    padding-top: 30px;
+
+
+}
+
+strong{
+    font-weight: bold;
+}
+
+ul{
+    font-size: 18px;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+    margin: 0 0 0 20px;
+    padding: 10px 10px;
+}
+
+.texto-para-documentacao{
+    font-size: 18px;
+    margin: 0 0 0 200px;
+    
+}
+
+#documentacao{
+    padding: 10px 0;
+    display: inline-block;
+    margin: 80px 0;
+}
+
+.enviar{
+    width: 20%;
+    border: 2px solid #32CD32;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px 20px;
+    padding: 10px 10px;
+    background: #FF0000;
+    display: inline-block;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    transform: scale(1.2);
+}
+
+
+.tabela-de-informacoes{
+    width: 20%;
+    border: 2px solid #FF0000;
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: inline-block;
+    margin: 0 0 0 600px;
+
+}
+
+.corpo-da-tabela{
+    text-align: center;
+}
+
+footer{
+    height: 20%;
+    background: #FF0000;
+    padding: 70px;
+}
+
+.copyright{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 480px){
+
+    body{
+        width: 100%;
+    }
+   header main footer{
+       width: auto;
+   }
+
+   header{
+    
+   }
+
+}
