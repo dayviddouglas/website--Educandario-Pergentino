@@ -1,6 +1,4 @@
-<h1> Website - Educandário Pergentino </h1>
 
-> This project is development...
 # Educandário Pergentino WebSite.
 
 
