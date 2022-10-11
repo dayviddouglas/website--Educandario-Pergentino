@@ -9,7 +9,7 @@
 | :sparkles: Nome        | ** Educandário Pergentino Website**
 | :label: Tecnologias | Html and CSS
 | :rocket: URL         |(https://educanpergentino.netlify.app/)
-| :fire: Desafio     | 
+
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://user-images.githubusercontent.com/102172970/195117595-563fc4be-5f23-477c-9157-1897415539e2.png#vitrinedev) 
