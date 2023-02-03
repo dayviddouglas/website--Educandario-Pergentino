@@ -15,4 +15,4 @@
 
 ## Detalhes do projeto
 
-This project is in progress, The project objetive is to be one of the communication channels between the school institution and its customers. This institution is managed by the creator's mother, because the organization is small, Dayvid aspiring in the development, decided to create this entity project.
+This project is in progress, The project objetive is to be one of the communication channels between the school institution and its customers. This institution is managed by the creator's mother, because the organization is small, Dayvid aspiring in the development, decided to create this entity project. The website is in Portuguese BR.
